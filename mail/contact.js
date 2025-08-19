@@ -14,8 +14,15 @@ $(function () {
 
       // Check if we're on Netlify (form has netlify attribute)
       if ($form.attr("data-netlify") === "true") {
-        // Netlify will handle the form submission automatically
-        $form.submit();
+        // For Netlify Forms, we need to let the form submit naturally
+        // Add a hidden input for the form name
+        if (!$form.find('input[name="form-name"]').length) {
+          $form.append(
+            '<input type="hidden" name="form-name" value="sentMessage" />'
+          );
+        }
+
+        // Show success message immediately since Netlify will handle the submission
         $("#success").html("<div class='alert alert-success'>");
         $("#success > .alert-success")
           .html(
@@ -23,13 +30,16 @@ $(function () {
           )
           .append("</button>");
         $("#success > .alert-success").append(
-          "<strong>Your message has been sent. </strong>"
+          "<strong>Your message has been sent successfully! </strong>"
         );
         $("#success > .alert-success").append("</div>");
         $("#contactForm").trigger("reset");
         setTimeout(function () {
           $this.prop("disabled", false);
         }, 1000);
+
+        // Let the form submit to Netlify
+        return true;
       } else {
         // Use PHP backend
         $.ajax({
