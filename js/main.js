@@ -105,20 +105,13 @@
 
   // Dynamic Experience Years Calculation
   function updateExperienceYears() {
-    var startYear = 2017;
+    var startYear = 2023; // Approximate start year based on internships
     var currentYear = new Date().getFullYear();
     var experienceYears = currentYear - startYear;
 
     // Update the experience heading
     $(".about-content .section-header h2").text(
-      experienceYears + " Years Experience"
-    );
-
-    // Update the about text
-    $(".about-text p").text(
-      "I have been working as a developer since " +
-        experienceYears +
-        " years and have acquired many knowledges along the way. Some foremost development skills are,"
+      experienceYears + "+ Years Experience"
     );
   }
 
