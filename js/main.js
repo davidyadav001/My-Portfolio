@@ -105,7 +105,7 @@
 
   // Dynamic Experience Years Calculation
   function updateExperienceYears() {
-    var startYear = 2023; // Approximate start year based on internships
+    var startYear = 2024; // Approximate start year based on internships
     var currentYear = new Date().getFullYear();
     var experienceYears = currentYear - startYear;
 
