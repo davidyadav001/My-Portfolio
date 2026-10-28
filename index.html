@@ -4,10 +4,14 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Dharmendra Yadav</title>
+    <title>Dharmendra Yadav | Full Stack Developer</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Dharmendra Yadav, Full Stack Developer, React Developer, Portfolio" name="keywords">
-    <meta content="Dharmendra Yadav - Full Stack Developer specializing in React.js, React Native, Node.js, and modern web technologies" name="description">
+    <meta content="Explore Dharmendra Yadav's portfolio of web and mobile applications, development services, skills, and experience." name="description">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dharmendra Yadav | Full Stack Developer">
+    <meta property="og:description" content="Web and mobile application developer specializing in React, TypeScript, and modern full-stack technologies.">
+    <meta property="og:image" content="img/hero.png">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -40,7 +44,8 @@
                 <div class="navbar-nav ml-auto">
                     <a href="#home" class="nav-item nav-link active">Home</a>
                     <a href="#about" class="nav-item nav-link">About</a>
-                    <a href="#service" class="nav-item nav-link">Service</a>
+                    <a href="#service" class="nav-item nav-link">Services</a>
+                    <a href="#projects" class="nav-item nav-link">Projects</a>
                     <a href="#experience" class="nav-item nav-link">Experience</a>
                     <!-- <a href="#portfolio" class="nav-item nav-link">Portfolio</a> -->
                     <!-- <a href="#price" class="nav-item nav-link">Price</a> -->
@@ -65,18 +70,18 @@
                             <p>I'm</p>
                             <h1>Dharmendra Yadav</h1>
                             <h2></h2>
-                            <div class="typed-text">Full Stack Developer, Front-End Developer,
-                                React Developer</div>
+                            <div class="typed-text">Full Stack Developer, Front-End Developer, React Developer</div>
+                            <p class="hero-tagline">I build responsive web and mobile applications.</p>
                         </div>
-                        <!-- <div class="hero-btn">
-                            <a class="btn" href="">Hire Me</a>
-                            <a class="btn" href="">Contact Me</a>
-                        </div> -->
+                        <div class="hero-btn">
+                            <a class="btn" href="Software_Engineer_CV.pdf" download>Download Resume</a>
+                            <a class="btn" href="#contact">Hire me</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 d-none d-md-block">
+                <div class="col-sm-12 col-md-6">
                     <div class="hero-image">
-                        <img src="img/hero.png" alt="Hero Image">
+                        <img src="img/hero.png" alt="Dharmendra Yadav, full stack developer" fetchpriority="high">
                     </div>
                 </div>
             </div>
@@ -91,7 +96,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="img/about.jpg" alt="Image">
+                        <img src="img/about.jpg" alt="Dharmendra Yadav working as a developer" loading="lazy">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -105,38 +110,26 @@
                                 Front-end–focused Full Stack Developer with 2+ years of experience building responsive, high-performance web and mobile applications using React.js, React Native, Node.js, and modern JavaScript frameworks. Skilled in intuitive UI design, API integration, and performance optimization.
                             </p>
                         </div>
-                        <div class="skills">
-                            <div class="skill-name">
-                                <p>React.js</p>
-                                <p>85%</p>
+                        <div class="skills" aria-label="Skills">
+                            <div class="skill-group">
+                                <h3>Frontend</h3>
+                                <div class="skill-badges"><span>React</span><span>TypeScript</span><span>JavaScript</span><span>Vite</span><span>HTML &amp; CSS</span></div>
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                            <div class="skill-group">
+                                <h3>Backend</h3>
+                                <div class="skill-badges"><span>Node.js</span><span>NestJS</span><span>REST APIs</span></div>
                             </div>
-                            <div class="skill-name">
-                                <p>React Native</p>
-                                <p>80%</p>
+                            <div class="skill-group">
+                                <h3>Mobile</h3>
+                                <div class="skill-badges"><span>React Native</span></div>
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                            <div class="skill-group">
+                                <h3>Database</h3>
+                                <div class="skill-badges"><span>PostgreSQL</span><span>MongoDB</span><span>Firebase</span></div>
                             </div>
-                            <div class="skill-name">
-                                <p>Node.js</p>
-                                <p>75%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                            <div class="skill-name">
-                                <p>MongoDB</p>
-                                <p>70%</p>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                            <div class="skill-group">
+                                <h3>DevOps &amp; Tools</h3>
+                                <div class="skill-badges"><span>Git</span><span>GitHub</span><span>Zustand</span><span>Tailwind CSS</span></div>
                             </div>
                         </div>
                         <!-- <a class="btn" href="">Learn More</a> -->
@@ -214,6 +207,104 @@
     <!-- Service End -->
 
 
+    <!-- Projects Start -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>Selected work</p>
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 project-column">
+                    <article class="project-card">
+                        <img class="project-image" src="img/projects/Baby-Education-Portal.png" alt="Baby Education Portal project screenshot" loading="lazy" decoding="async">
+                        <div class="project-content">
+                            <h3>Baby Education Portal</h3>
+                            <p>Client web app with authentication, APIs, and a database.</p>
+                            <div class="project-tech"><span>Web app</span><span>Authentication</span><span>APIs</span><span>Database</span></div>
+                            <div class="project-actions">
+                                <a class="btn" href="https://babyeducation.com.np" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <span class="private-repo">Private repo</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 project-column">
+                    <article class="project-card">
+                        <div class="project-image project-image-placeholder" role="img" aria-label="Student Management System screenshot coming soon">Image loading</div>
+                        <div class="project-content">
+                            <h3>SMS (Student Management System)</h3>
+                            <p>Student, staff, LMS, and admission portals with role-based access.</p>
+                            <div class="project-tech"><span>React</span><span>NestJS</span><span>PostgreSQL</span><span>RBAC</span></div>
+                            <div class="project-actions">
+                                <span class="project-link-unavailable" aria-label="Live demo unavailable">Live Demo unavailable</span>
+                                <a class="btn" href="https://github.com/davidyadav001/SMS-Project" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 project-column">
+                    <article class="project-card">
+                        <img class="project-image" src="img/projects/Vrit-Ecommerce-Dashboard.png" alt="Vrit E-commerce Dashboard project screenshot" loading="lazy" decoding="async">
+                        <div class="project-content">
+                            <h3>Vrit E-commerce Dashboard</h3>
+                            <p>Shopping dashboard with cart, wishlist, and payment features.</p>
+                            <div class="project-tech"><span>Vite</span><span>React</span><span>TypeScript</span><span>Zustand</span><span>Firebase</span></div>
+                            <div class="project-actions">
+                                <a class="btn" href="https://davidyadav001.github.io/Vrit_ecommerce-dashboard/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="btn" href="https://github.com/davidyadav001/Vrit_ecommerce-dashboard" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 project-column">
+                    <article class="project-card">
+                        <img class="project-image" src="img/projects/LLM-Gateway.png" alt="LLM Gateway project screenshot" loading="lazy" decoding="async">
+                        <div class="project-content">
+                            <h3>LLM Gateway</h3>
+                            <p>TypeScript gateway for working with large language models.</p>
+                            <div class="project-tech"><span>TypeScript</span></div>
+                            <div class="project-actions">
+                                <a class="btn" href="https://llm-gateway-two-ashen.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="btn" href="https://github.com/davidyadav001/llm-gateway" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 project-column">
+                    <article class="project-card">
+                        <img class="project-image" src="img/projects/NexSkill.png" alt="NexSkill project screenshot" loading="lazy" decoding="async">
+                        <div class="project-content">
+                            <h3>NexSkill</h3>
+                            <p>TypeScript-based project for skill development.</p>
+                            <div class="project-tech"><span>TypeScript</span></div>
+                            <div class="project-actions">
+                                <a class="btn" href="https://davidyadav001.github.io/NexSkill/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="btn" href="https://github.com/davidyadav001/NexSkill" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 project-column">
+                    <article class="project-card">
+                        <img class="project-image" src="img/projects/JIMDAR-Elite.png" alt="JIMDAR Elite fashion website screenshot" loading="lazy" decoding="async">
+                        <div class="project-content">
+                            <h3>JIMDAR Elite</h3>
+                            <p>Luxury fashion website showcasing an elevated shopping experience.</p>
+                            <div class="project-tech"><span>E-commerce</span><span>Fashion</span></div>
+                            <div class="project-actions">
+                                <a class="btn" href="https://thriving-mooncake-b471be.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                <a class="btn" href="https://github.com/davidyadav001/JIMDAR-Elite" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects End -->
+
+
     <!-- Experience Start -->
     <div class="experience" id="experience">
         <div class="container">
@@ -222,60 +313,41 @@
                 <h2>Working Experience</h2>
             </header>
             <div class="timeline">
-                <!--<div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">-->
-                <!--    <div class="timeline-text">-->
-                <!--        <div class="timeline-date">2017 - 2018</div>-->
-                <!--        <h2>Mobile Developer</h2>-->
-                <!--        <h4>Eton Technology</h4>-->
-                <!--        <p>-->
-                <!--            The company offers a school management system, library management system, RFID attendance-->
-                <!--            system, easy to operate website and smart board.-->
-
-                <!--        </p>-->
-                <!--    </div>-->
-                <!--</div>-->
                 <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                     <div class="timeline-text">
-                        <div class="timeline-date">MM/YYYY - Present</div>
-                        <h2>NavaNexa.Tech PVT. LTD</h2>
+                        <div class="timeline-date">Apr 2026 - Present</div>
+                        <h2>Appharu.Tech</h2>
+                        <h4>Developer</h4>
+                        <ul><li>Developing web applications and supporting ongoing product work.</li></ul>
+                    </div>
+                </div>
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">May 2025 - Mar 2026</div>
+                        <h2>NavaNexa.Tech</h2>
                         <h4>Full Stack Developer</h4>
-                        <p>
-                            Built and maintained scalable mobile apps using React Native & Node.js. Developed responsive, cross-browser-compatible UI components. Integrated REST APIs. Implemented Redux for state management. Used Tailwind CSS and Ant Design for reusable UI components.
-                        </p>
+                        <ul>
+                            <li>Built mobile apps with React Native and Node.js.</li>
+                            <li>Integrated REST APIs and reusable UI components.</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
                     <div class="timeline-text">
-                        <div class="timeline-date">07/2023 - 08/2023</div>
+                        <div class="timeline-date">Jul 2023 - Aug 2023</div>
                         <h2>5G IoT, Chandigarh, India</h2>
                         <h4>College Intern</h4>
-                        <p>
-                            Worked on collision detection and avoidance systems. Used ultrasonic sensors & HC-05 Bluetooth module.
-                        </p>
+                        <ul><li>Worked on collision detection using ultrasonic sensors and Bluetooth.</li></ul>
                     </div>
                 </div>
                 <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                     <div class="timeline-text">
-                        <div class="timeline-date">05/2023 - 07/2023</div>
+                        <div class="timeline-date">May 2023 - Jul 2023</div>
                         <h2>Nepal Telecom, Nepal</h2>
                         <h4>Analyst Intern</h4>
-                        <p>
-                            Conducted network performance analysis. Customer behavior analysis. Revenue forecasting.
-                        </p>
+                        <ul><li>Analyzed network performance, customer behavior, and revenue forecasts.</li></ul>
                     </div>
                 </div>
-                <!--</div>-->
-                <!--<div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">-->
-                <!--    <div class="timeline-text">-->
-                <!--        <div class="timeline-date">2045 - 2050</div>-->
-                <!--        <h2>Web Developer</h2>-->
-                <!--        <h4>Soft Agency, San Francisco, CA</h4>-->
-                <!--        <p>-->
-                <!--            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit-->
-                <!--            semper pretium.-->
-                <!--        </p>-->
-                <!--    </div>-->
-                <!--</div>-->
             </div>
         </div>
         <!-- Job Experience End -->
@@ -660,39 +732,39 @@
             <div class="container-fluid">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-4"></div>
+                        <div class="col-md-4 d-none d-md-block"></div>
                         <div class="col-md-8">
                             <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate" data-netlify="true"
-                                    netlify-honeypot="bot-field">
-                                    <input type="hidden" name="form-name" value="sentMessage" />
+                                <h2 id="contact-heading">Send me a message</h2>
+                                <p class="contact-note">Your email app will open with your message ready to send.</p>
+                                <div id="formStatus" role="status" aria-live="polite"></div>
+                                <form name="sentMessage" id="contactForm" action="mailto:davidyadav9818@gmail.com" method="post" enctype="text/plain">
                                     <div class="control-group">
+                                        <label class="sr-only" for="name">Your name</label>
                                         <input type="text" class="form-control" id="name" name="name"
-                                            placeholder="Your Name" required="required"
-                                            data-validation-required-message="Please enter your name" />
+                                            placeholder="Your Name" autocomplete="name" required minlength="2" maxlength="80" />
                                         <p class="help-block"></p>
                                     </div>
                                     <div class="control-group">
+                                        <label class="sr-only" for="email">Your email</label>
                                         <input type="email" class="form-control" id="email" name="email"
-                                            placeholder="Your Email" required="required"
-                                            data-validation-required-message="Please enter your email" />
+                                            placeholder="Your Email" autocomplete="email" required maxlength="254" />
                                         <p class="help-block"></p>
                                     </div>
                                     <div class="control-group">
+                                        <label class="sr-only" for="subject">Subject</label>
                                         <input type="text" class="form-control" id="subject" name="subject"
-                                            placeholder="Subject" required="required"
-                                            data-validation-required-message="Please enter a subject" />
+                                            placeholder="Subject" required minlength="3" maxlength="120" />
                                         <p class="help-block"></p>
                                     </div>
                                     <div class="control-group">
+                                        <label class="sr-only" for="message">Message</label>
                                         <textarea class="form-control" id="message" name="message" placeholder="Message"
-                                            required="required"
-                                            data-validation-required-message="Please enter your message"></textarea>
+                                            required minlength="10" maxlength="5000"></textarea>
                                         <p class="help-block"></p>
                                     </div>
                                     <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                        <button class="btn" type="submit" id="sendMessageButton">Open email to send</button>
                                     </div>
                                 </form>
                             </div>
@@ -768,10 +840,10 @@
                 <div class="container">
                     <div class="footer-info">
                         <h2>Dharmendra Yadav</h2>
-                        <h3>Kupondole, Nepal</h3>
+                        <h3>Tikathali, Kathmandu</h3>
                         <div class="footer-menu">
-                            <p>+977 9818722214</p>
-                            <p>davidyadav9818@gmail.com</p>
+                            <p><a href="tel:+9779818722214">+977 9818722214</a></p>
+                            <p><a href="mailto:davidyadav9818@gmail.com">davidyadav9818@gmail.com</a></p>
                         </div>
                         <div class="footer-social">
                             <a href="https://linkedin.com/in/dharmendra-yadav-b68971231"><i class="fab fa-linkedin-in"></i></a>
@@ -811,7 +883,6 @@
         <script src="lib/lightbox/js/lightbox.min.js"></script>
 
         <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
         <!-- Template Javascript -->

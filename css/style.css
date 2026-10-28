@@ -1589,3 +1589,269 @@ a:focus {
         padding: 0 5px;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#home,
+#about,
+#service,
+#projects,
+#experience,
+#contact {
+    scroll-margin-top: 85px;
+}
+
+.hero .hero-text .hero-tagline {
+    margin: 15px 0 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.hero .hero-image img {
+    height: auto;
+}
+
+.about .skill-group {
+    margin-top: 18px;
+}
+
+.about .skill-group h3 {
+    margin-bottom: 9px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.skill-badges,
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-badges span,
+.project-tech span,
+.private-repo {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    color: #6e504e;
+    background: #ffffff;
+    border: 1px solid #6e504e;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.projects {
+    position: relative;
+    padding: 45px 0 15px;
+}
+
+.project-column {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.project-card {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .14);
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    background: #f8f9fa;
+}
+
+.project-image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #797979;
+    font-size: 14px;
+}
+
+.project-content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 22px;
+}
+
+.project-content h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.project-content > p {
+    min-height: 44px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.project-tech {
+    margin-bottom: 20px;
+}
+
+.project-tech span {
+    padding: 5px 8px;
+    font-size: 12px;
+}
+
+.project-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-top: auto;
+}
+
+.project-actions .btn {
+    padding: 9px 12px;
+    font-size: 12px;
+    letter-spacing: .3px;
+}
+
+.project-link-unavailable {
+    padding: 9px 12px;
+    color: #797979;
+    border: 1px solid #dddddd;
+    font-size: 12px;
+}
+
+.experience .timeline .timeline-text ul {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.experience .timeline .timeline-text li + li {
+    margin-top: 5px;
+}
+
+.contact .contact-form h2,
+.contact .contact-form .contact-note {
+    color: #ffffff;
+}
+
+.contact .contact-form h2 {
+    margin-bottom: 10px;
+}
+
+.contact .contact-form .contact-note {
+    margin-bottom: 24px;
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus {
+    border-bottom-color: #ffffff;
+}
+
+.contact .contact-form input:invalid:not(:placeholder-shown),
+.contact .contact-form textarea:invalid:not(:placeholder-shown) {
+    border-bottom-color: #ffffff;
+}
+
+.contact .contact-form #formStatus {
+    color: #ffffff;
+}
+
+.footer .footer-menu a {
+    color: #ffffff;
+}
+
+.footer .footer-menu a:hover {
+    color: #414141;
+}
+
+.footer .footer-menu a {
+    overflow-wrap: anywhere;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid #6e504e;
+    outline-offset: 3px;
+}
+
+@media (max-width: 767.98px) {
+    .hero .hero-image {
+        padding: 25px 20px 0;
+        text-align: center;
+    }
+
+    .hero .hero-image img {
+        max-width: 70%;
+    }
+
+    .projects {
+        padding-top: 35px;
+    }
+
+    .contact .contact-form {
+        padding: 55px 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar .navbar-brand {
+        font-size: 19px;
+        letter-spacing: 0;
+    }
+
+    .footer .footer-menu {
+        flex-wrap: wrap;
+    }
+
+    .footer .footer-menu p {
+        max-width: 100%;
+        overflow-wrap: anywhere;
+    }
+
+    .hero .hero-image img {
+        max-width: 85%;
+    }
+
+    .project-content {
+        padding: 18px;
+    }
+
+    .project-content > p {
+        min-height: 0;
+    }
+
+    .project-actions .btn {
+        padding: 8px 10px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .project-card {
+        transition: none;
+    }
+}

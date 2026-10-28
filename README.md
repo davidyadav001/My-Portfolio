@@ -51,7 +51,7 @@ This is a personal portfolio website for **Dharmendra Yadav**, a Full Stack Deve
 
 - **Email**: davidyadav9818@gmail.com
 - **Phone**: +977 9818722214
-- **Location**: Kupondole, Nepal
+- **Location**: Tikathali, Kathmandu
 - **LinkedIn**: [linkedin.com/in/dharmendra-yadav-b68971231](https://linkedin.com/in/dharmendra-yadav-b68971231)
 - **GitHub**: [github.com/davidyadav001](https://github.com/davidyadav001)
 - **LeetCode**: [leetcode.com/u/7766080235](https://leetcode.com/u/7766080235)
@@ -59,7 +59,6 @@ This is a personal portfolio website for **Dharmendra Yadav**, a Full Stack Deve
 ## License
 
 This project is open source and available for personal use.
-
 
 
 
